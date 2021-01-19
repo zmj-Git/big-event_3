@@ -3,7 +3,7 @@
     font-size: 12px;
 }
 .iconfont{
-    margin-right: 8px;
+        margin-right: 8px;
 }
 .layui-icon-app{
     margin-right: 8px;
@@ -17,7 +17,7 @@ iframe{
     height: 100%;
 }
 a{
-    transition: none;
+    transition: none !important;
 }
 .userinfo{
     height: 60px;
@@ -27,18 +27,18 @@ a{
     user-select: none;
 }
 .layui-side-scroll .userinfo{
-    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 .layui-nav-img{
     width: 40px;
     height: 40px;
 }
-.text-avater{
+.text-avatar{
     display: inline-block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #009688;
+    background-color: #009688;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
